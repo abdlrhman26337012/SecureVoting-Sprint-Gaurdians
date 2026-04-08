@@ -1,0 +1,7 @@
+<!-- templates/vote.html -->
+<form method="POST" action="/cast_vote">
+    {{ csrf_token() }}
+    <input type="radio" name="candidate" value="A"> Candidate A
+    <input type="radio" name="candidate" value="B"> Candidate B
+    <button type="submit">Submit Vote</button>
+</form>
