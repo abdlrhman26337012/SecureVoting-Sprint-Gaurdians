@@ -1,2 +1,1 @@
-# SecureVoting-Sprint-Gaurdians
-SSD LAB MID
+"# Secure Voting System" 
